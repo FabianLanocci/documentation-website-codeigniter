@@ -1,0 +1,49 @@
+<section class="main-section" id="Variables">
+      <header id="Variables">Variables</header>
+      <p> PHP admite diez tipos primitivos.
+  Cuatro tipos escalares:
+        <ul>
+    <li> boolean</li>
+      <li>integer</li>
+    <li> float (número de punto flotante, también conocido como double)</li>
+      <li>string</li>
+      </ul>
+  Cuatro tipos compuestos:
+      <ul>
+      <li>array</li>
+      <li>object</li>
+      <li>callable</li>
+      <li>iterable</li>
+        </ul>
+  Y finalmente dos tipos especiales:
+          <ul>
+      <li>resource</li>
+      <li>NULL</li>
+            </ul>
+      </p><code>
+        
+  &#60?php</br>
+  $un_bool = TRUE;   // un valor booleano</br>
+  $un_str  = "foo";  // una cadena de caracteres</br>
+  $un_str2 = 'foo';  // una cadena de caracteres</br>
+  $un_int  = 12;     // un número entero</br>
+
+  echo gettype($un_bool); // imprime: boolean</br>
+  echo gettype($un_str);  // imprime: string</br>
+
+  // Si este valor es un entero, incrementarlo en cuatro</br>
+  if (is_int($un_int)) {</br>
+      $un_int += 4;</br>
+  }</br>
+
+  // Si $un_bool es una cadena, imprimirla</br>
+  // (no imprime nada)</br>
+  if (is_string($un_bool)) {</br>
+      echo "Cadena: $un_bool";</br>
+  }
+  ?&#62
+  <!--Lazy formatting, I know. It's practice tho-->
+  </code>
+      <p>
+      </p>
+    </section>

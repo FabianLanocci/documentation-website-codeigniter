@@ -1,0 +1,19 @@
+<section class="main-section" id="Operadores">
+      <header id="Operators">Operadores</header>
+      <p> Un operador es algo que toma uno más valores (o expresiones, en la jerga de programación) y produce otro valor (de modo que la construcción en si misma se convierte en una expresión).
+
+  Los operadores se pueden agrupar de acuerdo con el número de valores que toman. Los operadores unarios toman sólo un valor, por ejemplo ! (el operador lógico de negación) o ++ (el operador de incremento). Los operadores binarios toman dos valores, como los familiares operadores aritméticos + (suma) y - (resta), y la mayoría de los operadores de PHP entran en esta categoría. Finalmente, hay sólo un operador ternario, ? :, el cual toma tres valores; usualmente a este se le refiere simplemente como "el operador ternario" (aunque podría tal vez llamarse más correctamente como el operador condicional). 
+      </p>
+      <p><code>
+  &#60?php</br>
+        $a = 3 * 3 % 5; // (3 * 3) % 5 = 4</br>
+  // la asociatividad del operador ternario difiere de C/C++</br>
+  $a = true ? 0 : true ? 1 : 2; // (true ? 0 : true) ? 1 : 2 = 2</br></br>
+
+  $a = 1;</br>
+  $b = 2;</br>
+  $a = $b += 3; // $a = ($b += 3) -> $a = 5, $b = 5</br>
+  ?&#62</br>
+        </code>
+      </p>
+    </section>

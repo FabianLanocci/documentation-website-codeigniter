@@ -1,0 +1,7 @@
+<section class="main-section" id="''Hola_mundo''">
+      <header id="Hello_world">''Hola mundo''</header>
+      <p>Para imprimir algo en pantalla, debemos hacer uso de "echo"
+      </p>
+      <p><code> echo "Hola mundo";</code>
+      </p>
+    </section>

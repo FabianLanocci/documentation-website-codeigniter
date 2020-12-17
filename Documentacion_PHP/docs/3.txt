@@ -1,0 +1,15 @@
+<section class="main-section" id="Comentar_en_PHP">
+      <header id="#Comments">Comentar en PHP</header>
+      <p>PHP admite comentarios al estilo de 'C', 'C++' y de consola de Unix (estilo de Perl). Por ejemplo: 
+      </p>
+      <p><code>
+  &#60?php
+      echo 'Esto es una prueba'; </br>// Esto es un comentario al estilo de c++ de una sola línea</br>
+      /* Esto es un comentario multilínea
+        y otra lína de comentarios */</br>
+  echo 'Esto es otra prueba';</br>
+  echo 'Una prueba final'; </br># Esto es un comentario al estilo de consola de una sola línea
+  ?&#62
+        </code>
+      </p>
+    </section>
