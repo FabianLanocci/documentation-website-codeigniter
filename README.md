@@ -11,4 +11,4 @@ Documentation website made with HTML/CSS + PHP in MySql server using Codeigniter
 
 ## Documentation showing how documents work 2
 
-![documentation-1](./res/documentacion-2.gif)
+![documentation-2](./res/Documentacion-2.gif)
