@@ -106,7 +106,7 @@ class Documento extends CI_Controller{
 
         if(isset($data["documento"]['documento_id'])){
             
-            $ruta=FCPATH."docs\\".$data["documento"]['documento_id'].".txt";
+            $ruta=FCPATH."docs/".$data["documento"]['documento_id'].".txt";
             if(file_exists($ruta)){
                 $data["documento"]["contenido"]=file_get_contents($ruta);
             }else{

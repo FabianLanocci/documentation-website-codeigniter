@@ -1,0 +1,9 @@
+Crear una base de datos en el servidor y ponerle un nombre/contraseña acorde al archivo en:
+application/config/database.php
+
+Cambiar en config.php la base_url acorde a lo que nos da el servidor.
+
+Ejecutar/importar en mysql el archivo "documentos.sql"
+
+Modificar en el path de Documento.php el path correspondiente en caso
+de que no funcionara (prestar especial atencion a los "slash" /  \  y sus compatibilidades con el servidor)
